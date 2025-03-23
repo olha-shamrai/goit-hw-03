@@ -223,7 +223,7 @@ img {
     gap: 24px;
 }
 
-.team-item{
+.team-item {
     width: calc((100% - 72px) / 4);
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
@@ -262,6 +262,7 @@ img {
 .portfolio-card {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .page-footer {
