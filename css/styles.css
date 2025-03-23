@@ -24,6 +24,12 @@ ul, ol {
     padding: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -129,6 +135,7 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin: 0 auto;
 }
 
 .hero-button {
@@ -154,7 +161,8 @@ ul, ol {
 }
 
 .features-container,
-.team-container {
+.team-container,
+.portfolio-container {
     padding: 120px 0;
 }
 
@@ -162,10 +170,6 @@ ul, ol {
     display: flex;
     align-items: center;
     gap: 24px;
-}
-
-.team-section{
-    background-color: #F4F4FD;
 }
 
 .section-title {
@@ -211,6 +215,10 @@ ul, ol {
     letter-spacing: 0.02em;
 }
 
+.team-section {
+    background-color: #F4F4FD;
+}
+
 .team-list {
     display: flex;
     align-items: center;
@@ -218,12 +226,18 @@ ul, ol {
 }
 
 .team-item{
+    width: calc((100% - 72px) / 4);
     background-color: #fff;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 /*.team-item:hover,
 .team-item:focus {
 }*/
+
+.team-card {
+    padding: 32px 16px;
+}
 
 .team-title,
 .team-text {
