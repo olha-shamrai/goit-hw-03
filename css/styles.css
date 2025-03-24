@@ -170,6 +170,10 @@ img {
     gap: 24px;
 }
 
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -219,7 +223,7 @@ img {
 
 .team-list {
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
     gap: 24px;
 }
 
